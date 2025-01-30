@@ -21,15 +21,41 @@
             </div>
         </header>
         <main>
-            <div class="grid gap-4 grid-cols-4 mb-6">
-                <div class="border-2 border-black p-2 bg-white-200 break-after-column">
-                    <h3 class="text-sm">Ranking - Most visited</h3>
-                    <div class="flex items-end justify-end h-[95px] mx-auto bg-cover bg-center mb-6" style="background-image: url('./assets/dubai.jpg')"><p class="text-white decoration-black mr-2">Dubai</p></div>
-                    <div class="flex items-end justify-end h-[95px] mx-auto bg-cover bg-center mb-6" style="background-image: url('./assets/london.jpg')"><p class="text-white decoration-black mr-2">London</p></div>
-                    <div class="flex items-end justify-end h-[95px] mx-auto bg-cover bg-center mb-6" style="background-image: url('./assets/newyork.jpg')"><p class="text-white decoration-black mr-2">New York</p></div>
-                    <div class="flex items-end justify-end h-[95px] mx-auto bg-cover bg-center mb-6" style="background-image: url('./assets/tokio.jpg')"><p class="text-white decoration-black mr-2">Tokio</p></div>
-                    <div class="flex items-end justify-end h-[95px] mx-auto bg-cover bg-center mb-6" style="background-image: url('./assets/paris.jpg')"><p class="text-white decoration-black mr-2">Paris</p></div>
-                    <div class="flex items-end justify-end h-[95px] mx-auto bg-cover bg-center" style="background-image: url('./assets/amsterdam.jpg')"><p class="text-white decoration-black mr-2">Amsterdam</p></div>
+            <div class="grid gap-4 grid-cols-4 mb-6">                
+                <div class="border-2 border-black p-2 bg-white-200 flex flex-col">
+                    <h3>Ranking - Most visited</h3>
+                    <div class="flex flex-col flex-grow justify-between">
+                        <div class="relative h-[95px] mb-4 w-full">
+                            <div class="flex items-end justify-end h-full bg-cover bg-center flex-shrink-0 w-full" style="background-image: url('./assets/dubai.jpg')">
+                                <p class="text-black bg-amber-50/50 mb-2 mr-2">Dubai</p>
+                            </div>
+                        </div>
+                        <div class="relative h-[95px] mb-4 w-full">
+                            <div class="flex items-end justify-end h-full bg-cover bg-center flex-shrink-0 w-full" style="background-image: url('./assets/london.jpg')">
+                                <p class="text-black bg-amber-50/50 mb-2 mr-2">London</p>
+                            </div>
+                        </div>
+                        <div class="relative h-[95px] mb-4 w-full">
+                            <div class="flex items-end justify-end h-full bg-cover bg-center flex-shrink-0 w-full" style="background-image: url('./assets/newyork.jpg')">
+                                <p class="text-black bg-amber-50/50 mb-2 mr-2">New York</p>
+                            </div>
+                        </div>
+                        <div class="relative h-[95px] mb-4 w-full">
+                            <div class="flex items-end justify-end h-full bg-cover bg-center flex-shrink-0 w-full" style="background-image: url('./assets/tokio.jpg')">
+                                <p class="text-black bg-amber-50/50 mb-2 mr-2">Tokio</p>
+                            </div>
+                        </div>
+                        <div class="relative h-[95px] mb-4 w-full">
+                            <div class="flex items-end justify-end h-full bg-cover bg-center flex-shrink-0 w-full" style="background-image: url('./assets/paris.jpg')">
+                                <p class="text-black bg-amber-50/50 mb-2 mr-2">Paris</p>
+                            </div>
+                        </div>
+                        <div class="relative h-[95px] w-full">
+                            <div class="flex items-end justify-end h-full bg-cover bg-center flex-shrink-0 w-full" style="background-image: url('./assets/amsterdam.jpg')">
+                                <p class="text-black bg-amber-50/50 mb-2 mr-2">Amsterdam</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-span-3">
                     <div class="grid gap-4 grid-cols-3">
